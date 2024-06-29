@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  width: 300px;
+  display: grid;
+  place-items: center;
+}
+
+form,
+input,
+select,
+button {
+  font-family: inherit;
+  font-size: inherit;
+  width: 100%;
+  min-width: 0;
+}
+
+form > * + * {
+  margin: 0.25em 0 0 0;
+}
+
+label {
+  display: flex;
+  gap: 0.25em;
+}
+
+input[type=checkbox] {
+  width: auto;
+}

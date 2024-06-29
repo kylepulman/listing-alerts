@@ -1,0 +1,14 @@
+{
+  "name": "listing-alerts",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rm -rf dist && tsc && cp -r src/* dist && rm dist/*.ts",
+    "watch": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.268",
+    "@types/node": "^20.14.6",
+    "typescript": "^5.4.5"
+  },
+  "type": "module"
+}
