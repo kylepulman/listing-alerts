@@ -8,31 +8,18 @@ body {
   background: #000;
   color: #fff;
   font-size: 1.5rem;
-  padding: 0.5rem;
-  width: 300px;
-  display: grid;
-  place-items: center;
+  padding: 0.25rem;
 }
 
-form,
 input,
 select,
 button {
   font-family: inherit;
   font-size: inherit;
+  min-width: 12.5rem;
   width: 100%;
-  min-width: 0;
 }
 
 form > * + * {
-  margin: 0.25em 0 0 0;
-}
-
-label {
-  display: flex;
-  gap: 0.25em;
-}
-
-input[type=checkbox] {
-  width: auto;
+  margin: 0.25rem 0 0 0;
 }
